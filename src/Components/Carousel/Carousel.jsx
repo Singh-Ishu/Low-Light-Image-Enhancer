@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import './Carousel.css';
-import placeholderImg from './placeholder_img.png'; // Assuming this is your image
+import placeholderImg from './placeholder_img.png'; 
 
 function Carousel() {
-  // Use the imported image as a reference in the array
   const images = [
     placeholderImg,
     placeholderImg,
