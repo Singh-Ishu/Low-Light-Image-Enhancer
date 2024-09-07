@@ -1,0 +1,6 @@
+canvas {
+    height: 100vh; /* 50% of the viewport height */
+    width: 100%; /* take up the full width of the viewport */
+    display: block; /* make sure the canvas is a block element */
+    margin: 0 auto; /* center the canvas horizontally */
+  }

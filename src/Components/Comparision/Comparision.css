@@ -1,0 +1,37 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background to match */
+    border-radius: 10px;
+    border: 2px dashed rgba(255, 255, 255, 0.2); /* Border to match the existing UI */
+    width: 80%; /* Adjust width as per your layout */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .comparison-image {
+    width: 300px;
+    height: 300px;
+    background-color: #ccc;
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Semi-transparent white border */
+    border-radius: 5px;
+    object-fit: cover; /* Adjust the image if loaded */
+  }
+  
+  .image-description {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family: 'Roboto', sans-serif; /* Consistent with your existing font style */
+    letter-spacing: 1px;
+  }
