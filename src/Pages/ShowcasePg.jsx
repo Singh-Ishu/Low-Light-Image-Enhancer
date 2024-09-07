@@ -1,10 +1,10 @@
 import React from "react";
-import Carousel from "../Components/Carousel/Carousel.jsx";
+import Carousel1 from "../Components/Carousel/Carousel1.jsx";
 
 function ShowcasePg(){
     return(
     <>
-    <Carousel/>
+    <Carousel1/>
     </>);
 }
 
